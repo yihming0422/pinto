@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="main_tab_text_color_no_select">#808080</color>
+    <color name="main_tab_text_color_select">#E7380D</color>
+    <color name="home_listview_bg">#F0F0F0</color>
+    <color name="home_list_title_text_color">#999999</color>
+    <color name="my_self_bg">#F8F8F8</color>
+    <color name="line_bg_gray">#D7D7D7</color>
+    <color name="text_black">#444444</color>
+    <color name="reset_text_bg">#999999</color>
+    <color name="submit_text_bg">#e7380d</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray">#aaaaaa</color>
+    <color name="light_blue">#6593cb</color>
+    <color name="black">#000000</color>
+    <color name="red">#FF0000</color>
+    <color name="trans">#00000000</color>
+    <color name="alertdialog_line">#c6c6c6</color>
+    <color name="actionsheet_blue">#037BFF</color>
+    <color name="actionsheet_red">#FD4A2E</color>
+    <color name="actionsheet_gray">#8F8F8F</color>
+    <color name="chengse">#e8320d</color>
+    <color name="xian">#D7D7D7</color>
+    <color name="huise">#B8B8B8</color>
+    <color name="hongse">#E8390E</color>
+    <color name="huise_bg">#ebebeb</color>
+    <color name="colorc">#cccccc</color>
+    <color name="color3">#333333</color>
+    <color name="color6">#666666</color>
+    <color name="color9">#999999</color>
+    <color name="colorff">#00ffffff</color>
+	<color name="blue">#005df6</color>
+
+    <color name="colorPrimary">#e8320d</color>
+    <color name="colorPrimaryDark">#e8320d</color>
+    <color name="colorAccent">#FF4081</color>
+
+</resources>
