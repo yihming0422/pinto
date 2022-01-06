@@ -98,12 +98,9 @@ public class AlertDialog {
         } else {
             btn_pos.setText(text);
         }
-        btn_pos.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                listener.onClick(v);
-                dialog.dismiss();
-            }
+        btn_pos.setOnClickListener(v -> {
+            listener.onClick(v);
+            dialog.dismiss();
         });
         return this;
     }
@@ -116,12 +113,9 @@ public class AlertDialog {
         } else {
             btn_neg.setText(text);
         }
-        btn_neg.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                listener.onClick(v);
-                dialog.dismiss();
-            }
+        btn_neg.setOnClickListener(v -> {
+            listener.onClick(v);
+            dialog.dismiss();
         });
         return this;
     }
@@ -176,7 +170,7 @@ public class AlertDialog {
         dialog.show();
     }
 
-    public AlertDialog setView(View view){
+    public AlertDialog setView(View view) {
         dialog.setContentView(view);
         return this;
     }
